@@ -1,4 +1,4 @@
-import java.io.*;
+﻿import java.io.*;
 
 /**
  * Created by haibin on 2016/7/3.
@@ -6,7 +6,7 @@ import java.io.*;
 public class RemoveCommentsFromJavaFile {
 
     public static void main(String[] args) throws IOException {
-        removeComments("D:\\workspace\\vehicle\\api\\src\\main\\java\\com\\yunguchang", "E:\\vehicle\\api\\src\\main\\java\\com\\yunguchang"); // 这里写好源文件夹和目的文件夹
+        removeComments("D:\\workspace\\test", "E:\\workspace\\test"); // 这里写好源文件夹和目的文件夹
         System.out.println("ok");
     }
 
